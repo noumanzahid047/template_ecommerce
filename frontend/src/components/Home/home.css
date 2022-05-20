@@ -1,0 +1,16 @@
+.home_main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home {
+    background-image: radial-gradient(circle, #ffff, #FFF7F6, #FFEBE9, #FFACA5, #FF8E88);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+}

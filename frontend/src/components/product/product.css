@@ -1,0 +1,24 @@
+.templateCard {
+    width: 16vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:black;
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    justify-content: center;
+    align-items:center ;
+}
+.templateCard > img {
+    width: 16vmax;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0;
+}
+.templateCard:hover {
+    box-shadow: 0 0 5px black;
+
+    transform: translateY(-1vmax);
+}
